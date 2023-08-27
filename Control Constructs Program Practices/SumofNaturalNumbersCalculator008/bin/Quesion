@@ -1,0 +1,29 @@
+Sum of Natural Numbers Calculator
+
+Question Description: Create a program that calculates the sum of the first 'n' natural numbers. The program should accept an integer 'n' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void calculateSum(int n)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+}
+
+}
+
+Sample Input: 10
+
+Sample Output: 55

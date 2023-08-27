@@ -1,0 +1,31 @@
+Discount Applicability
+
+Question Description: Create a program that checks if the purchase is above $100 and prints "Discount Applicable". The program should accept a double 'purchaseAmount' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void checkDiscount(double purchaseAmount)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+//code here
+
+}
+
+}
+
+Sample Input: 150.0
+
+Sample Output: Discount Applicable

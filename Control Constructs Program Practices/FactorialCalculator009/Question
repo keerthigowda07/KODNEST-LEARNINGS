@@ -1,0 +1,33 @@
+Factorial Calculator
+
+Question Description:
+
+Create a program that calculates the factorial of a given number. The program should accept an integer 'n' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void calculateFactorial(int n)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+//code here
+
+}
+
+}
+
+Sample Input: 5
+
+Sample Output: 120
