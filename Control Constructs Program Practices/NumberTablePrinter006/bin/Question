@@ -1,0 +1,31 @@
+Number Table Printer
+
+Question Description: Create a program that prints the multiplication table of a given number. The program should accept an integer 'num' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void printTable(int num)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+//code here
+
+}
+
+}
+
+Sample Input: 5
+
+Sample Output: 5 x 1 = 5 5 x 2 = 10 ... 5 x 10 = 50

@@ -1,0 +1,35 @@
+Polygon Identifier
+
+Question Description: Create a program that identifies the type of a polygon based on the number of its sides. The program should accept an integer 'sides' as input.
+
+Note:1) Use Switch conditional control construct
+
+Note:2)include traiangle, Quadrilateral,Pentagon and Hexagon. By defalut any other let the program print Polygon
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void identifyPolygon(int sides)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+//Taking the input and method call here.
+
+}
+
+}
+
+Sample Input: 4
+
+Sample Output: Quadrilateral

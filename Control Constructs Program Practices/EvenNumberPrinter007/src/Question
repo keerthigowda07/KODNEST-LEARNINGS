@@ -1,0 +1,31 @@
+Even Number Printer
+
+Question Description: Create a program that prints all the even numbers between 1 and 'n'. The program should accept an integer 'n' as input.
+
+Boiler Plate Code:
+
+public class Main
+
+{
+
+public static void printEvenNumbers(int n)
+
+{
+
+// your code here
+
+}
+
+public static void main(String[] args)
+
+{
+
+//code here
+
+}
+
+}
+
+Sample Input: 10
+
+Sample Output: 2 4 6 8 10
