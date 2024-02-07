@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class FindPrimeNumber {
+
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		System.out.println("Enter N th number");
+		int n=scan.nextInt();
+		
+		int count=1;
+		int checkPrimeNo;
+		int i=2;
+		while(count<n) {
+			for(int j=1; j<i; j++) {
+				checkPrimeNo=i%j;
+				if(checkPrimeNo!=0) {
+					count++;
+				}
+			}
+		}
+		System.out.println(checkPrimeNo);
+
+	}
+
+}
