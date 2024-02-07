@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class ArmStrongNumber {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		// taking user input
+		System.out.println("Enter a Number");
+		int num=scan.nextInt();
+		
+		// finding count of digits of entered number
+		int help=num;
+		int count=0;
+		while(help!=0) {
+			help/=10;
+			count++;
+		}
+		isArmStrong(num, count);
+		
+	}
+	
+	//finding, is Armstrong number?
+			public static void isArmStrong(int num, int count) {
+				int numCopy=num;
+				int armStrong=0;
+				int ldPower=1;
+				while(numCopy!=0) {
+					int ld=numCopy%10;
+					for(int i=1; i<=count; i++) {
+						ldPower*=ld;
+					}
+					armStrong+=ldPower;
+					numCopy/=10;
+				}
+				if(num==armStrong) {
+					System.out.println(num+" is a ArmStrong Number");
+				}
+				else {
+					System.out.println(num+" is not a ArmStrong Number");
+				}
+			}
+}

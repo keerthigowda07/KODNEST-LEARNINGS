@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class StrongNumber {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		//taking user input
+		System.out.println("Enter a number");
+		int num=scan.nextInt();
+		
+		int numCopy=num;
+		int ldFactorial;
+		int strongNumber = 0;
+		while(num!=0) {
+			int ld=num%10;
+			ldFactorial=1;
+			for(int i=1; i<=ld; i++) {
+				ldFactorial*=i;
+			}
+			strongNumber+=ldFactorial;
+			num/=10;
+		}
+		
+		if(strongNumber==numCopy) {
+			System.out.println(numCopy+" is a Strong Number");
+		}
+		else {
+			System.out.println(numCopy+" is not a Strong Number");
+		}
+	}
+
+}
