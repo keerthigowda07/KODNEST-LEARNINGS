@@ -1,0 +1,45 @@
+5) Question Title: Checking if a Character is a Digit
+
+Question Description:
+
+Imagine you are developing a Java program for a text processing application.
+Your task is to create a program that checks whether each character in an array of symbols is a digit (0-9).
+Your program should take user input for the array of characters and display the results without additional messages on the console.
+
+Input:
+
+The program should initiate by obtaining the number of characters in the array from the user. Then, the user should provide the characters one by one.
+
+Output:
+
+Finally, present the boolean array of digit checks to the user, ensuring that the order corresponds to the input order of characters.
+
+Boilerplate Code:
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+Sample Input 1:
+
+
+
+4
+3
+9
+x
+0
+Sample Output 1:
+
+
+
+true
+true
+false
+true
+

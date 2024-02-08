@@ -1,0 +1,15 @@
+4) Question Title: Counting the Number of Vowels in a Given String
+
+Question Description:
+
+In a text processing application, you need to develop a Java program that counts the number of vowels in a given string.
+For this task, consider the English alphabet and both uppercase and lowercase vowels (A, E, I, O, U, a, e, i, o, u).
+Provide a comprehensive explanation of the problem, including the necessary input and the expected output.
+
+Input:
+
+A string containing alphabetic characters (letters).
+
+Output:
+
+The number of vowels in the input string (an integer).

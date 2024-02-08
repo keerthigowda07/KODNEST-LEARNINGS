@@ -1,0 +1,17 @@
+2) Question Title: Categorizing Odd or Even Data Elements
+
+Question Description:
+
+Imagine you are developing a Java program for data analysis. You have a 1D array of integers representing data points.
+Your task is to create a program that checks each element in the array and returns a string array indicating whether each element is "Odd" or "Even."
+This program will assist data analysts in categorizing data points efficiently.
+
+Input:
+
+An integer representing the number of elements in the array.
+
+The integer data points, one per line, for each element in the array.
+
+Output:
+
+Categorization results: A string array indicating whether each data point in the input array is "Odd" or "Even."

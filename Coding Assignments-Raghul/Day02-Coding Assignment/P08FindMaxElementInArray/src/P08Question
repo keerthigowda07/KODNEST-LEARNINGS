@@ -1,0 +1,17 @@
+3) Question Title: Finding the Maximum Element in an Integer Array
+
+Question Description:
+
+In the context of data analysis, you have a 1D array of integers representing data points.
+Your task is to implement a Java method that finds and returns the maximum element in the array.
+Provide a comprehensive explanation of the problem, including the necessary input and the expected output.
+
+Input:
+
+The number of elements in the array (an integer).
+
+The integer array elements, one element per line.
+
+Output:
+
+The maximum element found in the array.

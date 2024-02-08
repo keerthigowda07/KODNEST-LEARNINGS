@@ -1,0 +1,19 @@
+1) Question 1:
+
+Question Title: Calculating Average Daily Sales for a Retail Store
+
+Question Description:
+
+Imagine you are developing a Java program for a retail store to analyze their daily sales data.
+Your task is to create a program that calculates and displays the average daily sales for a specific period.
+This program will help the store make informed decisions about their sales performance.
+
+Input:
+
+Begin by taking an integer input representing the number of days you want to analyze.
+
+Next, for each of the specified days, input the daily sales figure as an integer.
+
+Output:
+
+The program should calculate the average daily sales based on the provided daily sales figures and display the result on the console.
