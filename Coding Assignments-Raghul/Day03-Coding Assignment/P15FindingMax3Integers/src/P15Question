@@ -1,0 +1,38 @@
+5) Question Title: Finding the Maximum of Three Integers in Java
+
+Question Description:
+
+Consider a scenario where you're working on a data manipulation tool, specifically designed to handle sets of three integers, known as triplets. These triplets could represent various aspects, such as coordinates in 3D space, measurements at distinct points in time, or even attributes of a given entity. Your task is to create a Java function that efficiently identifies and reports the maximum integer within each triplet.
+
+Contextual Scenario:
+
+Imagine you're developing a scientific analysis tool. You have sets of data points, and for each set, you need to identify the highest value. This maximum value could indicate the peak intensity of a signal, the maximum temperature recorded, or the highest velocity reached in a particular interval.
+
+Input:
+
+Your function will receive an array of these triplets. Each triplet is represented as an array containing three integers. These three values form a cohesive unit, holding specific information relevant to the context.
+
+Output:
+
+Upon execution, your function should return an array where each element corresponds to the maximum value within the respective triplet. This result is instrumental in understanding the peak value or the dominant attribute in a given set of data.
+
+Boilerplate Code:
+
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+
+Sample Input 1:
+
+3
+2 5 9
+7 1 3
+0 0 0
+
+Sample Output 1:
+
+9
+7
+0

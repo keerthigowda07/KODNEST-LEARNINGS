@@ -1,0 +1,36 @@
+2) Question Title: Finding the Minimum Element in a 1D Double Array
+
+Question Description:
+
+Imagine you are a scientist working on a climate research project. As part of your research, you have collected temperature data from various locations. To further analyze this data, you need to find the minimum temperature recorded.
+
+Your task is to implement a Java program that takes input for a 1D array of temperature values (in degrees Celsius) and finds the minimum temperature recorded.
+
+Input:
+
+The program should obtain an array of double values representing temperature data from the user. The first element of the array will represent the number of data points, followed by the temperature values.
+
+Output:
+
+Finally, present the minimum temperature found among the recorded data.
+
+Boilerplate Code:
+
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+
+Sample Input 1:
+
+5
+10.5
+5.2
+8.7
+7.1
+12.8
+
+Sample Output 1:
+
+5.2

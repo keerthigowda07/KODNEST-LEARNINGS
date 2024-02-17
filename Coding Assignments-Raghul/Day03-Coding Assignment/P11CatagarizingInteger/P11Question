@@ -1,0 +1,40 @@
+1) Question Title: Categorizing Integers as Positive, Negative, or Zero
+
+Question Description:
+
+Imagine you are developing a Java program for a mathematical computation application. Your task is to create a program that categorizes each number in an array of integers as positive, negative, or zero. Your program should take user input for the array of integers and display the categorization results without additional messages on the console.
+
+Input:
+
+The program should initiate by obtaining the number of integers in the array from the user. Then, the user should provide the integers one by one.
+
+Output:
+
+Finally, present the categorization results to the user.
+
+Boilerplate Code:
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+
+Sample Input 1:
+
+5
+10
+-5
+0
+7
+-12
+
+Sample Output 1:
+
+Positive
+Negative
+Zero
+Positive
+Negative

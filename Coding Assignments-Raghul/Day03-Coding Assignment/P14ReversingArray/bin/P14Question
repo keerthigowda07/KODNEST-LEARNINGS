@@ -1,0 +1,21 @@
+4) Question Title: Reversing a 1D Integer Array
+
+Question Description:
+
+Imagine you're working on a sophisticated data processing system used by financial analysts. This system deals with vast sets of numerical data, often representing intricate financial transactions. You're provided with a 1D integer array, a fundamental data structure in such applications, which holds a series of crucial numerical values. Your task is to develop a robust Java program that proficiently reverses the order of elements within the array.
+
+Contextual Scenario:
+
+In finance, especially in tasks like portfolio management or risk assessment, the chronological order of transactions can be pivotal. For instance, consider a scenario where a series of financial transactions are logged in an array. Each transaction has a specific timestamp indicating when it occurred. When assessing the impact of these transactions, it's often necessary to analyze them in reverse chronological order. This is particularly important in scenarios involving portfolio rebalancing, where the latest transactions may hold more significance. Your program, by reversing the array, will enable analysts to efficiently conduct such assessments.
+
+Input:
+
+Your program will receive the following inputs:
+
+numbers (Array of Integers): A 1D integer array representing the series of numerical data.
+
+Output:
+
+Your program should produce the following output:
+
+reversedNumbers (Array of Integers): The array with its elements meticulously reversed, ensuring that the last becomes the first, and vice versa.

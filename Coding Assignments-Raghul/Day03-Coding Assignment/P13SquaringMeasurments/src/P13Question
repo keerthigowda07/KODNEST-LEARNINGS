@@ -1,0 +1,40 @@
+3) Question Title: Engineering Precision: Squaring Measurements for Structural Analysis
+
+Question Description:
+
+You find yourself working at an engineering firm renowned for its attention to precision in structural analysis. Your task involves developing a specialized tool to accurately compute the squares of various measurements obtained during building inspections.
+
+You are tasked with creating a Java program that takes an array of measurements and returns the squares of each measurement. This tool will play a crucial role in ensuring that the structural integrity of buildings is maintained with the utmost precision.
+
+Input:
+
+measurements (Array of Integers): An array of measurements, each representing a specific aspect of a building's structural integrity.
+
+Output:
+
+squaredMeasurements (Array of Integers): An array containing the squares of each measurement.
+
+Boilerplate Code:
+
+public class Main {
+    public static void main(String[] args) {
+        // Your code here
+    }
+}
+
+Sample Input 1:
+
+5
+2
+4
+6
+8
+10
+
+Sample Output 1:
+
+4
+16
+36
+64
+100
